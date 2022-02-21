@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Footer from "./conponents/menu/Footer";
+import TopBar from "./conponents/menu/TopBar";
+import Asked from "./conponents/sections/Asked";
+import FastEasy from "./conponents/sections/FastEasy";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopBar />
+      <div id="_lg_form_"></div>
+      <FastEasy />
+      <div className="jr_container">
+        <Asked />
+        <Footer />
+      </div>
     </div>
   );
 }
