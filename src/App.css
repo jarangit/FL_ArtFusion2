@@ -27,7 +27,7 @@ p {
   font-weight: bold;
 }
 .topbar_item::before {
-  content: url("http://opploans.credit/img/ico-logo_35x24.svg");
+  content: url("../public/logo.svg");
   position: absolute;
   top: -5px;
   left: 20px;
@@ -70,7 +70,7 @@ p {
   height: 24px;
   top: 10px;
   left: 0px;
-  background: url(http://opploans.credit/img/ico-check_white_24x24.svg) 0 0
+  background: url("../public/icon_check.svg") 0 0
     no-repeat;
   -webkit-background-size: 24px 24px;
   -moz-background-size: 24px 24px;

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer_nav">
+      {/* <div className="footer_nav">
         <ul>
           <li className="footer_nav_item">
             <a href="/">Get Start</a>
@@ -18,7 +18,7 @@ const Footer = () => {
             <a href="/">Get Start</a>
           </li>
         </ul>
-      </div>
+      </div> */}
 
       <div className="footer_content">
         <div className="footer_content_item">
